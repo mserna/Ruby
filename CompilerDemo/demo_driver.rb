@@ -2,9 +2,9 @@
 # Compliler Demo
 # Driver for compiler demo - start of program
 
-require 'parser'
-require 'error'
-require 'backend'
+require_relative 'parser'
+require_relative 'error'
+require_relative 'backend'
 
 #### MAIN CLASS ####
 
