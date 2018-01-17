@@ -22,7 +22,7 @@ class Lexer
 
 	Token = TokenType.new()
 
-	def getNextToken (void)
+	def getNextToken
 		ch = 0
 
 		#loop to get a non-layout character

@@ -8,8 +8,8 @@ require 'backend'
 
 #### MAIN CLASS ####
 
-AST_node *icode
-if (!Parse_program(&icode))
+ASTNode *icode
+if (!parseProgram(icode))
 	Error("No top-level expression")
 else
 	Process(icode)
