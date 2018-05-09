@@ -15,7 +15,7 @@ RSpec.describe StringReverser do
 
         string_reverser.reverse_and_save('Hello World!')
         expect(File).
-            to have_received(:write).
+            to have_receieved(:write).
             with('example_file', '!dlroW olleH').
             once
     end
